@@ -252,7 +252,7 @@ If you go back to the **Assets** page of your project, you will notice that the 
 
 ![Running the data flow 4](images/34.png)
 
-You can also find the data flow you created if you scroll down the same page.
+You can also find the data flow you created if you scroll down the same page, which can refine at any time by clicking on the triple dot menu next to the data flow name.
 
 ![Running the data flow 5](images/35.png)
 
