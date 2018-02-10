@@ -105,7 +105,7 @@ and *OCCUPATION.x*, which is indicated as we can only see *true* as the only val
 #### Harmonization data in the *SEX* field
 - Click on the **Profile** tab and take a closer look at the column *SEX*. You will notice some additional values other than *Male* and *Female*, mainly ones that we want to change to *Male*.
 - Click on **+Operation** and select **Replace substring**, which you can find under **CLEANSE**.
-- Choose *SEX* as the **Selected column**. Under **PATTERN** tab, type *^(?!(Male|Female))([Mm].*)* under **Regular expression** and *Male* under **Enter the string replace with**. Make sure to select **Replace all occurrences**
+- Choose *SEX* as the **Selected column**. Under **PATTERN** tab, type <i>^(?!(Male|Female))([Mm].*)</i> under **Regular expression** and *Male* under **Enter the string replace with**. Make sure to select **Replace all occurrences**
 - Click **Apply** and go to the **Profile** tab again to for a final check.
 
 #### Harmonization data in the *AGE* field
@@ -125,7 +125,7 @@ and *OCCUPATION.x*, which is indicated as we can only see *true* as the only val
 ### Change data type of the fields
 - Go to the **Data** tab.
 - Go to the column called *AGE* and change its type to Integer by clicking on the triple dot menu next to the column name and selecting **CONVERT TYPE** followed by selecting **Integer**.
-- In the same way, change the data type of *UNIQUE_ID*, *EDUCATION*, *MARITAL_STATUS*, *OCCUPATION*, *RELATIONSHIP*, *RACE*, *SEX*, *NATIVE_COUNTRY*, *EMPLOYER_TYPE* and *INCOME* to *String*. Also, change *CAPITAL_GAIN*, *CAPITAL_LOSS* and *HOURS_PER_WEEK*to *Decimal*.
+- In the same way, change the data type of *UNIQUE_ID*, *EDUCATION*, *MARITAL_STATUS*, *OCCUPATION*, *RELATIONSHIP*, *RACE*, *SEX*, *NATIVE_COUNTRY*, *EMPLOYER_TYPE* and *INCOME* to *String*. Also, change *CAPITAL_GAIN*, *CAPITAL_LOSS* and *HOURS_PER_WEEK* to *Decimal*.
 
 ### Removing empty rows (List-wise deletion)
 - Go to the **Data** tab.
