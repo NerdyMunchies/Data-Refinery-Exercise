@@ -15,7 +15,7 @@ A lot of time is said to be spent cleansing, shaping and formatting data before 
 - Interactive data validation and automatic detection of anomalies such as missing values, outliers, and duplicates
 - Visualizations that provide insight into large amounts of data
 
-When reifning your data, the **Data** tab is where you can see a simple of how you data looks and see the result of any operation you select to do on your data. The **Profile** tab allows you to see a summary of some basic statistical analysis and can be used to find anomalies. The **Visualizations** tab helps with getting  insights into your data.
+When refining your data, the **Data** tab is where you can see a simple of how you data looks and see the result of any operation you select to do on your data. The **Profile** tab allows you to see a summary of some basic statistical analysis and can be used to find anomalies. The **Visualizations** tab helps with getting  insights into your data.
 
 # Process
 ## Sign up on IBM Cloud
@@ -252,5 +252,8 @@ If you go back to the **Assets** page of your project, you will notice that the 
 
 ![Running the data flow 4](images/34.png)
 
+You can also find the data flow you created if you scroll down the same page.
+
+![Running the data flow 5](images/35.png)
 
 Aaaand that is it!!
