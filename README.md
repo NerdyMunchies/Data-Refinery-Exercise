@@ -165,10 +165,11 @@ and *OCCUPATION.x*, which is indicated as we can only see *true* as the only val
 ![Harmonization data in the *SEX* field](images/22.png)
 
 - Click on **+Operation** and select **Replace substring**, which you can find under **CLEANSE**.
-- Choose *SEX* as the **Selected column**. Under **PATTERN** tab, type <i>^(?!(Male|Female))([Mm].*)</i> under **Regular expression** and *Male* under **Enter the string replace with**. Make sure to select **Replace all occurrences**. 
+- Choose *SEX* as the **Selected column**. Under **PATTERN** tab, type <i>^(?!(Male|Female))([Mm].*)</i> under **Regular expression** and *Male* under **Enter the string replace with**. Make sure to select **Replace all occurrences**.
+
 What is meant by <i>^(?!(Male|Female))([Mm].*)</i> is to find any expression that doesn't start with *Male* or *Female* and starts with the letter *M* or *m*, which could be followed by any character.
 
-![regex(images/regex.png)
+![regex](images/regex.png)
 
 - Click **Apply** and go to the **Profile** tab again to for a final check.
 
