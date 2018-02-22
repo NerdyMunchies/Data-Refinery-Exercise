@@ -19,7 +19,7 @@ When refining your data, the **Data** tab is where you can see a simple of how y
 
 # Process
 ## Sign up on IBM Cloud
-An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to [IBM Cloud]().
+An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to [IBM Cloud](ibm.biz/devsummit).
 
 ## Create a Data Refinery service instance
 - Select **Catalog** found at the top right of the page.
@@ -94,7 +94,7 @@ type of joining choose **adult_org_info.csv** as the **Data set to join**.
 
 - We will notice that there are 2 columns representing *OCCUPATION*, one coming from each of the data sets. Let's check to see if they contain the exact same values.
 - Click on **+ Operation** and select **Calculate**, which you can find under **FREQUENTLY USED**.
-- Choose *OCCUPATION.x* as the **Selected column**, **Is equal to ** as the **Operation** and *OCCUPATION.y* as the **COLUMN**.
+- Choose *OCCUPATION.x* as the **Selected column**, **Is equal to** as the **Operation** and *OCCUPATION.y* as the **COLUMN**.
 - Select to **Create new column for the results** and enter the **New column name**.
 - Click **Apply**. You will see the resulting column added at the right end of the table.
 
@@ -142,7 +142,7 @@ and *OCCUPATION.x*, which is indicated as we can only see *true* as the only val
 ![Harmonization data in the *EDUCATION* field](images/18.png)
 
 - Click on **+Operation** and select **Text**, which you can find under **FREQUENTLY USED**.
-- Choose *EDUCATION* as the **Selected column**, **Trim spaces ** as the **Text Operation** and *Both* as the **Side to trim**.
+- Choose *EDUCATION* as the **Selected column**, **Trim spaces** as the **Text Operation** and *Both* as the **Side to trim**.
 - Click **Apply** and go to the **Profile** tab again to check if all the additional values have been removing. You will notice the we still have *Some  -  college* as an additional value, which we want to harmonize and change to *Some-college*.
 
 ![Harmonization data in the *EDUCATION* field 2](images/19.png)
