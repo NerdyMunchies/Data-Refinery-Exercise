@@ -19,7 +19,7 @@ When refining your data, the **Data** tab is where you can see a simple of how y
 
 # Process
 ## Sign up on IBM Cloud
-An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to [IBM Cloud](ibm.biz/devsummit).
+An IBM Cloud account - A lite account, which is a free of charge account that doesn’t expire, can be created through going to [IBM Cloud](ibm.biz/devsummit). Make sure to set the region to US.
 
 ## Create a Data Refinery service instance
 - Select **Catalog** found at the top right of the page.
@@ -76,18 +76,18 @@ the **IBM Watson Data Platform**. If this is your first time on this platform an
 
 ![Data tab](images/7.png)
 
-- Click on the **Profile** tab and talk quick look at data summary and get a feel of you data (do this after skimming through your data displayed in the **Data** tab). You will notice some weird values under **FREQUENCY** for some fields. For example, you will notice that some values under *AGE* contain additional string and there multiple values under *SEX* that seem to be meant to represent the value *Male*). You will also notice that *EDUCATION* and *EDUCATION-NUM* seem to have the same frequency values. We will get back to this in a bit.
+- Click on the **Profile** tab and talk quick look at data summary and get a feel of you data (do this after skimming through your data displayed in the **Data** tab). You will notice some weird values under **FREQUENCY** for some fields. For example, you will notice that some values under *AGE* contain additional string and there multiple values under *SEX* that seem to be meant to represent the value *Male*). You will also notice that, for the most part, *EDUCATION* and *EDUCATION-NUM* seem to have the similar frequency values. We will get back to this in a bit.
 
 ![Profile tab](images/8.png)
 
 ### Joining two data sets
 - Click on the **Data** tab to see a sample of your data.
-- Click on **+ Operation** and then select **Join**, which you can find under **ORGANIZE**. This to join both the data assets we added namely the one we are currently refining, *adult_person_info.csv**, and **adult_org_info.csv**.
-- Select **Inner join** as the method of how we want our data to be combined.
+- Click on **+ Operation** and then select **Join**, which you can find under **ORGANIZE**. This to join both the data assets we added namely the one we are currently refining, **adult_person_info.csv**, and **adult_org_info.csv**.
+- Select **Inner join** as the method of how we want our data to be combined (Inner Join selects records that have matching column value(s) in both tables).
 - By default, the **Source** is selected as the current data asset (**adult_person_info.csv**). 
 type of joining choose **adult_org_info.csv** as the **Data set to join**.
 - Modify the **Suffix** field as you desire, which is just a way for you to differentiate any duplicate fields resulted during the joining process. You can use the default values.
-- For the **JOIN KEYS**, select *UNIQUE_ID* representing the employee ID, as the join key for b.oth data sets and click **Next**
+- For the **JOIN KEYS**, select *UNIQUE_ID* representing the employee ID, as the join key for both data sets and click **Next**
 - Select all fields and click **Apply**.
 
 ![Joining two data sets](images/9.png)
@@ -142,7 +142,7 @@ and *OCCUPATION.x*, which is indicated as we can only see *true* as the only val
 ![Harmonization data in the *EDUCATION* field](images/18.png)
 
 - Click on **+Operation** and select **Text**, which you can find under **FREQUENTLY USED**.
-- Choose *EDUCATION* as the **Selected column**, **Trim spaces** as the **Text Operation** and *Both* as the **Side to trim**.
+- Choose *EDUCATION* as the **Selected column**, **Trim spaces** as the **Text Operation** and **Both** as the **Side to trim**.
 - Click **Apply** and go to the **Profile** tab again to check if all the additional values have been removing. You will notice the we still have *Some  -  college* as an additional value, which we want to harmonize and change to *Some-college*.
 
 ![Harmonization data in the *EDUCATION* field 2](images/19.png)
@@ -183,6 +183,8 @@ What is meant by <i>^(?!(Male|Female))([Mm].*)</i> is to find any expression tha
 - Click on **+Operation** and select **Split column**, which you can find under **ORGANIZE**.
 - Choose *AGE* as the **Selected column**. Under **POSITION** tab, type *2* under **Positions** and *AGE_num,AGE_str* under the **Names of new columns**. Make sure to unselect **Keep original column**
 - Click **Apply**.
+
+Bear in mind that this is not the best approach to handle this. This is just provide an example of how to use the **split column** operation.
 
 ![Harmonization data in the *AGE* field 2](images/25.png)
 
