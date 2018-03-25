@@ -101,8 +101,7 @@ type of joining choose **adult_org_info.csv** as the **Data set to join**.
 
 ![Joining two data sets 3](images/14.png)
 	
-- In our case, we will see that all fields that had values were identical in both *OCCUPATION.x*
-and *OCCUPATION.x*, which is indicated as we can only see *true* as the only value with the newly created column. In other cases, we might see that some values are not identical due to one reason or the other. In such situations, what we can do is select the column we get from the data asset coming from the more trusted source.
+- In our case, we will see that all fields that had values were identical in both *OCCUPATION.x* and *OCCUPATION.y*, which is indicated as we can only see *true* as the only value with the newly created column. In other cases, we might see that some values are not identical due to one reason or the other. In such situations, what we can do is select the column we get from the data asset coming from the more trusted source.
 
 ![Joining two data sets 4](images/15.png)
 
