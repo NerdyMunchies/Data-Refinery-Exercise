@@ -235,7 +235,7 @@ Note that you will typically try to understand the different reasons behind havi
 ![Rounding up the values in *CAPITAL_LOSS*](images/36.png)
 
 ## Running the data flow
-- At this point, you should have 31 **Steps**. The next step is to click on the play button to run the data flow as seen below.
+- At this point, you should have 32 **Steps**. The next step is to click on the play button to run the data flow as seen below.
 
 ![Running the data flow](images/37.png)
 
