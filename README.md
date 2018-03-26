@@ -37,7 +37,7 @@ It is through the newly created **Watson Studio** service instance that we will 
 
 - You will be taken to the main page of the service. Click on **Get Started**. This will take you to the **Watson Studio** platform. If this is your first time on this platform and you don't have an associated account, you will be asked to **Confirm your IBM Cloud organization and space information**.
 
-![IBM Watson service (Get Started)](images/3.png)
+![IBM Watson Studio service (Get Started)](images/3.png)
 
 ## Create a New Project
 - On the **IBM Watson Watson** main page, click on **Refine data** Under **Get started with key tasks**. If you don't have any projects previously created, you will be asked to **Create Project**. Otherwise, you will need to select one of your already existing projects or create a **New project** from the **IBM Watson Watson** main page.
@@ -51,7 +51,7 @@ It is through the newly created **Watson Studio** service instance that we will 
 - Click on **Confirm**.
 - Click on **Refresh** to see the newly created service instance and get it selected.
 - You can select to **Restrict who can be a collaborator** under **Choose project options** if you wish to do so at this stage.
-- Click on **Create**
+- Click on **Create**.
 
 ![Create a new project](images/8.png)
 
@@ -232,7 +232,7 @@ Note that you will typically try to understand the different reasons behind havi
 - Choose *CAPITAL_GAIN* as the **Selected column** and **Floor** as the **Math Operation**.
 - Click **Apply**.
 
-![Rounding up the values in *CAPITAL_LOSS*](images/36.png)
+![Rounding up the values in *CAPITAL_GAIN*](images/36.png)
 
 ## Running the data flow
 - At this point, you should have 32 **Steps**. The next step is to click on the play button to run the data flow as seen below.
